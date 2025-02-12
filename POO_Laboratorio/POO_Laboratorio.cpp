@@ -15,7 +15,7 @@ class Perro : public Animal {
 public:
 	Perro(string n, int e) : Animal(n, e) {}
 	void hacerSonido() override {
-		cout << nombre << " dice: Guau!" << endl;
+		cout << nombre << " dice: Miaw!" << endl;
 	}
 };
 class Automovil {
